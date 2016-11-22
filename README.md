@@ -22,11 +22,11 @@ The payslip process must be imported and is based on a specific path of actions
 2. Clone the git project into a folder of your convenience. Let's call it **prj_dir**.
 3. Run the BPMS instance.
 4. Import the repository:
-  4.1 Enter the console with a user with Admin role.
-  4.2 Go to Authoring -> Administration.
-  4.3 from the Repositories tab select Clone repository.
-  4.4 Specify a name, select an OU of your preference and specify the path: **prj_dir**/repositories/mef
-  4.5 The process *attivazioneSistemaPaghe* will be now available in the Project authoring section of the console.
+  4.1. Enter the console with a user with Admin role.
+  4.2. Go to Authoring -> Administration.
+  4.3. from the Repositories tab select Clone repository.
+  4.4. Specify a name, select an OU of your preference and specify the path: **prj_dir**/repositories/mef
+  4.5. The process *attivazioneSistemaPaghe* will be now available in the Project authoring section of the console.
 5. Build the project so that now you have a precess definition of the above process in the process definition list.
 6. Edit the web application (in the application folder of the cloned project) with your IDE.
 7. Edit the **index.jsp** page and change the **theUrl** variable in the script section at the bottom of the file.
