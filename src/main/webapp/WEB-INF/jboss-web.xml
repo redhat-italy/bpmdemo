@@ -1,0 +1,4 @@
+<jboss-web>
+    <security-domain>other</security-domain>
+    <context-root>bpmweb</context-root>
+</jboss-web>
