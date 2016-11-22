@@ -30,7 +30,7 @@ The payslip process must be imported and is based on a specific path of actions
 5. Build the project so that now you have a precess definition of the above process in the process definition list.
 6. Edit the web application (in the application folder of the cloned project) with your IDE.
 7. Edit the **index.jsp** page and change the **theUrl** variable in the script section at the bottom of the file.
-You have to change the references to the deployed processes: */business-central/rest/runtime/**it.mef.demo:bpmdemo:1.0**/withvars/process/**bpmdemo.simple**/start*
+You have to change the references to the deployed processes: _/business-central/rest/runtime/**it.mef.demo:bpmdemo:1.0**/withvars/process/**bpmdemo.simple**/start_
 by substituting it with correct ones that you can read from the console when you edit the process definition with the process editor.
 8. Build the project using mvn clean package.
 9. Deploy the app located in the target subfolder by copying it in the deployments dir or using the deploy command of the CLI.
