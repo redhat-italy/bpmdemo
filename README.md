@@ -33,4 +33,4 @@ The payslip process must be imported and is based on a specific path of actions
 You have to change the references to the deployed processes: _/business-central/rest/runtime/**it.mef.demo:bpmdemo:1.0**/withvars/process/**bpmdemo.simple**/start_
 by substituting it with correct ones that you can read from the console when you edit the process definition with the process editor.
 8. Build the project using mvn clean package.
-9. Deploy the app located in the target subfolder by copying it in the deployments dir or using the deploy command of the CLI.
+9. Deploy the app located in the target subfolder by copying it in the deployments dir or using the web administration console or using the deploy command of the CLI.
