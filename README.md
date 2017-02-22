@@ -19,7 +19,7 @@ The first process is a very simple process that can be designed on the fly durin
 The payslip process must be imported and is based on a specific path of actions
 ### Setup
 1. Install a BPM Suite platform following the product installation guide.
-2. Clone the git project into a folder of your convenience. Let's call it **prj_dir**.
+2. Clone this git project into a folder of your convenience. Let's call it **prj_dir**.
 3. Run the BPMS instance.
 4. Import the repository:
   1. Enter the console with a user with Admin role.
